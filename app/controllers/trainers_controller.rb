@@ -5,9 +5,9 @@ class TrainersController < ApplicationController
     @trainers = Trainer.all
   end
 
-  # def show
-  #   # @trainer = Trainer.find(params[:id])
-  #   @pokemons = current_trainer.pokemons
-  # end
+  def show
+    @trainer = Trainer.find(params[:id])
+    @pokemons = current_trainer.pokemons
+  end
 
 end
