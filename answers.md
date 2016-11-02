@@ -9,6 +9,7 @@ The random Pokemon are appearing due to the seeds in seeds.rb. The common factor
 This creates a button with the words "Throw a Pokeball!" that when clicked on...
 
 # Question 3: What would you name your own Pokemon?
+Peewee
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
 
