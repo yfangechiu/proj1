@@ -21,3 +21,6 @@ Flash allows us to display an action that is saved before the redirect so pokemo
 This was a fun project! I just had little mistakes that confused me for a long time!
 
 # Extra credit: Link your Heroku deployed app
+
+
+https://github.com/yfangechiu/proj1
