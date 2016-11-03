@@ -5,7 +5,8 @@
  <p><%= @trainer.name %>'s pokemons: </p>
     <% @trainer.pokemons.each do |p| %>
 <!--       <li>Level <%= p.level %> <%= p.name%> Health: <%= p.health%> -->
-  <li>Level <%= p.level %> <%= p.name%> Health: <%= p.health%> Trainer_id: <%= p.trainer_id%> Id: <%= p.id%>
-      <%= button_to "Damage!", damage_path(id: p), :class => "button medium", :method => :patch %><li>
+	  <p>Level <%= p.level %> <%= p.name%> Health: <%= p.health%> Trainer_id: <%= p.trainer_id%> Id: <%= p.id%>
+	  <%= button_to "Damage!", damage_path(id: p), :class => "button medium", :method => :patch %><p>
     <% end %>
+    <%= link_to "Create a new pokemon", pokemons_new_path %>
 </div>
