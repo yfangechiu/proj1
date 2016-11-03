@@ -4,6 +4,6 @@
 <div>
  <p><%= @trainer.name %>'s pokemons: </p>
     <% @trainer.pokemons.each do |p| %>
-      <li>Level <%= p.level %> <%= p.name%></li>
+      <li>Level <%= p.level %> <%= p.name%> Health: <%= p.health%></li>
     <% end %>
 </div>
